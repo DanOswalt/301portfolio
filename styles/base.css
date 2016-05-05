@@ -1,14 +1,19 @@
-body {
+main {
+  text-align: center;
   font-family: 'Courier', sans-serif;
-}
-
-header, nav {
-  display: inline-block;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Poiret One', sans-serif;
   font-weight: bold;
+}
+
+#title-headline {
+  display: inline-block;
+}
+
+#nav-links {
+  display: inline-block;
 }
 
 a {
