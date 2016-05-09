@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Dan Oswalt</title>
-    <link rel="stylesheet" href="vendor/styles/normalize.css">
+    <link rel="stylesheet" href="vendors/styles/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=Poiret+One|Droid+Serif' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/modules.css">
@@ -26,17 +26,17 @@
 
       <section id='projects-module'>
         <!-- Template for a Project -->
-        <div class='project'>
+        <div class='project template'>
           <header>
-            <h2>Project Title</h2><!--project.title-->
-            <p>Project Description</p><!--project.description-->
+            <h2 class='title'>Project Title</h2><!--project.title-->
+            <p class='description'>Project Description</p><!--project.description-->
             <div class='byline'>
               <addess><a href=''>Publishing Author<a></address><!--project.publishedBy-->
               published this <time pubdate datetime='2001-01-01'>in a previous time</time><!--project.publishedOn-->
             </div>
             <section class='details'>
               <p>Project details</p><!--project.details-->
-              <img src="img/blacksquareredsquare.png" alt='squares pic'><!--project.screenshot-->
+              <img src="img/blacksquareredsquare.png" alt='squares pic' width=><!--project.screenshot-->
             <section>
           </header>
         </div>
@@ -46,7 +46,7 @@
   &copy; 2016 Dan Oswalt
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="projectData.js"></script>
-  <script src="project.js"></script>
-  <script src="app.js"></script>
+  <script src="scripts/projectData.js"></script>
+  <script src="scripts/project.js"></script>
+  <script src="scripts/projectModule.js"></script>
 </html>
