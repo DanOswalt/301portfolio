@@ -1,4 +1,4 @@
-//make this a JSON object later
+//make this a JSON object later?
 
 var projectData = [
 
