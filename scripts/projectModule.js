@@ -1,18 +1,19 @@
 function ProjectModule(projectData) {
-  //recieves array of project data
+  //receives array of project data
   this.data = projectData;
-  console.log(this.data);
 };
 
-ProjectModule.prototype.run = function() {
+ProjectModule.prototype.load = function() {
   //sort the data array
   this.data.sort(function(a,b) {
     return (new Date(b.publishedOn)) - (new Date(a.publishedOn));
   });
-  //
-  console.log(this.data);
+  //make an array of
+  this.data.forEach( function(projectData) {
+    var newProject = new Project(projectData);
+    $('#projects-module').append(newProject.toHtml());
+  });
 
 };
 
-//load in data and load
-new ProjectModule(projectData).run();
+new ProjectModule(projectData).load();
