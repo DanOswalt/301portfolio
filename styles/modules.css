@@ -8,3 +8,19 @@
   font-size: 75%;
   opacity: 0.75;
 }
+
+.project {
+  background-color: #E8E2CC;
+  margin-top: 50px;
+  padding: 10px;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.title,
+.author {
+  color: #AC1603;
+}

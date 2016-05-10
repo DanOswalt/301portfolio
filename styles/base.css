@@ -5,6 +5,8 @@
 main {
   text-align: center;
   font-family: 'Courier', sans-serif;
+  color: #010101;
+  background-color: #010101;
 }
 
 h1, h2, h3, h4 {
@@ -14,6 +16,7 @@ h1, h2, h3, h4 {
 
 #title-headline {
   font-size: 66px;
+  color: #E8E2CC;
 }
 
 a {
