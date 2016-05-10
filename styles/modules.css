@@ -11,7 +11,7 @@
 
 .project {
   background-color: #E8E2CC;
-  margin-top: 50px;
+  margin: 50px auto;
   padding: 10px;
   max-width: 600px;
 }
