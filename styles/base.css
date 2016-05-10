@@ -12,8 +12,21 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
+#title-headline {
+  font-size: 66px;
+}
+
 a {
   text-decoration: none;
+  color: #AC1603;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
@@ -31,8 +44,23 @@ li {
 
 #nav-links {
   display: inline-block;
+  min-width: 100%;
+  margin: -60px 0 0 0;
+  padding: 0px;
+  text-align: center;
 }
 
-/***
- * Layout rules
- **/
+#nav-links li {
+  background-color: #AC1603;
+  margin: 2px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+
+#nav-links li:hover {
+  opacity: 0.5;
+}
+
+#nav-links a {
+  color: white;
+}

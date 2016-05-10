@@ -3,3 +3,8 @@
   text-align: center;
   margin: 0 auto;
 }
+
+.byline {
+  font-size: 75%;
+  opacity: 0.75;
+}

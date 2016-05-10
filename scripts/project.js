@@ -12,6 +12,8 @@ function Project (opts) {
 Project.prototype.toHtml = function() {
   var $newProject = $('.template').clone();
 
+  console.log($newProject.html());
+
   $newProject.find('.title').html(this.title);
   $newProject.find('.description').html(this.description);
   $newProject.find('.details').html(this.details);
